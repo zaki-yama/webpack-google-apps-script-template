@@ -4,17 +4,12 @@ import path from 'path';
 const PRODUCTION = process.env.NODE_ENV === 'production';
 
 export default {
-  context: path.resolve(__dirname, './src'),
+  context: path.resolve(__dirname, './lib'),
   entry: './index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './src'),
     publicPath: '/assets',
-  },
-  // Configuration for dev server
-  devServer: {
-    contentBase: path.resolve(__dirname, './src'),
-    port: 3000,
   },
 
   devtool: PRODUCTION ? 'cheap-module-source-map' : 'inline-source-map',
