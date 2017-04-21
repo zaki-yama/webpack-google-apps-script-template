@@ -1,5 +1,6 @@
 import webpack from 'webpack';
 import path from 'path';
+import GasPlugin from 'gas-webpack-plugin';
 
 const PRODUCTION = process.env.NODE_ENV === 'production';
 
@@ -23,6 +24,7 @@ export default {
     ],
   },
   plugins: [
+    new GasPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
