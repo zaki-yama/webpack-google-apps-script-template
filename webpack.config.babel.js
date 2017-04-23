@@ -1,6 +1,7 @@
 import webpack from 'webpack';
 import path from 'path';
 import GasPlugin from 'gas-webpack-plugin';
+import Dotenv from 'dotenv-webpack';
 
 export default {
   context: path.resolve(__dirname, './lib'),
@@ -21,5 +22,6 @@ export default {
   },
   plugins: [
     new GasPlugin(),
+    new Dotenv(),
   ],
 };
