@@ -1,5 +1,5 @@
 {
-  "name": "jira-issue-notification-bot",
+  "name": "webpack-google-apps-script-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,9 @@
     "build": "webpack",
     "upload": "gapps upload"
   },
-  "keywords": [],
+  "keywords": ["Google Apps Script", "Webpack"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
