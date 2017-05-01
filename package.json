@@ -8,6 +8,7 @@
     "auth": "gapps auth",
     "watch": "watch 'npm run build && npm run upload' lib/",
     "build": "webpack",
+    "lint": "eslint lib",
     "upload": "gapps upload"
   },
   "keywords": [
