@@ -16,6 +16,8 @@ If you've never installed `gapps` and authenticate it, please read [here](https:
 $ npm run auth -- [path/to/credentials.json]
 ```
 
+(For Japanese, see [GoogleAppsScriptローカル開発用の公式CLI(node-google-apps-script)がついに登場したので試してみる - Qiita](http://qiita.com/zaki-yama/items/9a301542137febd8876c))
+
 ## Usage
 
 ```zsh
