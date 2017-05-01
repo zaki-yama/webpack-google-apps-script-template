@@ -5,6 +5,15 @@ Google Apps Script Template
 
 ```zsh
 $ npm install
+# or yarn
+```
+
+## Authentication
+
+If you've never installed `gapps` and authenticate it, please read [here](https://github.com/danthareja/node-google-apps-script#quickstart) and download your credentials, then run
+
+```zsh
+$ npm run auth -- [path/to/credentials.json]
 ```
 
 ## Usage

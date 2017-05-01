@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "init": "gapps init",
+    "auth": "gapps auth",
     "build": "webpack",
     "upload": "gapps upload"
   },
