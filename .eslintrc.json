@@ -13,9 +13,6 @@
 
     "import/named": 2
   },
-  "env": {
-    "browser": true
-  },
   "globals": {
     "Logger": true
   }
