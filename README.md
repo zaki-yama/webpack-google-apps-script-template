@@ -31,14 +31,14 @@ $ npm run build
 
 # Upload src/bundle.js to GAS.
 $ npm run upload
-```
 
-### Watch mode
+# Run ESLint
+$ npm run lint
 
-Run
-
-```
+# Watch mode: watches file updates under `lib/` directory, re-build and upload automatically.
 $ npm run watch
 ```
 
-and it watches file updates under `lib/` directory, re-build and upload automatically.
+## Load environment variables
+
+If you use environment variables (such as `process.env.FOO`), Create `.env` and define them as `KEY=VALUE` format.
