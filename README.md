@@ -32,3 +32,13 @@ $ npm run build
 # Upload src/bundle.js to GAS.
 $ npm run upload
 ```
+
+### Watch mode
+
+Run
+
+```
+$ npm run watch
+```
+
+and it watches file updates under `lib/` directory, re-build and upload automatically.
